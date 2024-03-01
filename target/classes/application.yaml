@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: store-auth
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka/}
+
+store:
+  jwt:
+    issuer: "In5pEr"
+    secretKey: "hASxC3zIg3JWWXOaBEFqB4ZAtnnJsTTmc6rcQaQtOWB7uHNOAvzXDOaoZ7J70Qons3DJRgltmsOAWjT5ls2EaTEA8LhCVdpF"
+    duration: 31536000000 # 365 days in miliseconds

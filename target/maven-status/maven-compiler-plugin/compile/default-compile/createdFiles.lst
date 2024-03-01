@@ -1,0 +1,10 @@
+humberto\loja\auth\Credential.class
+humberto\loja\auth\Register.class
+humberto\loja\auth\Token$TokenBuilder.class
+humberto\loja\auth\Token.class
+humberto\loja\auth\Register$RegisterBuilder.class
+humberto\loja\auth\AuthResource.class
+humberto\loja\auth\AuthService.class
+humberto\loja\auth\AuthApplication.class
+humberto\loja\auth\Credential$CredentialBuilder.class
+humberto\loja\auth\JwtService.class
